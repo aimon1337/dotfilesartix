@@ -1,7 +1,7 @@
 autoload -U colors && colors
 #PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 #PS1="%B%{$fg[red]%}%{$fg[green]%} ◇ %{$fg[magenta]%}%~%{$fg[red]%}%{$reset_color%}$%b "
-PROMPT=$'%~ %(?.%F{#3F85E7}.%F{1})%(!.#.@)%f '
+PROMPT=$'%~ %(?.%F{#3F85E7}.%F{#D65D62})%(!.#.◊ )%f '
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/etc/shortcutrc" ] && source "$HOME/etc/shortcutrc"
 [ -f "$HOME/etc/aliasrc" ] && source "$HOME/etc/aliasrc"
