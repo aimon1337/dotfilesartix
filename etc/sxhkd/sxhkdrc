@@ -24,7 +24,7 @@ super + shift + F2
     notify-send "$h" "<span background=\"#$h\">      </span>"
 
 Print
-	maim pic-full-$(date '+%y%m%d-%H%M-%S').png | curl -F "file=@-" 0x0.st | xclip -selection clipboard
+	maim pic-full-$(date '+%y%m%d-%H%M-%S').png
 # Pick screenshot type
 #shift + alt + ctrl + Print
 #	maim -s /tmp/screenshot.png | curl -F 'file=@tmp/screenshot.png' 0x0.st | xclip -selection clipboard
