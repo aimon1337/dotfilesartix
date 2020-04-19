@@ -2,5 +2,5 @@
 #~ exec bspwm
 exec dbus-launch bspwm
 start-pulseaudio-x11 &
-exec nvidia-settings --load-config-only
 xsetroot -cursor_name arrow
+~/etc/polybar/launch.sh &
